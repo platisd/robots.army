@@ -1,4 +1,4 @@
-name: "Write article with Sycophant"
+name: "Write new article with Sycophant"
 on:
   schedule:
     # Run every other day at 12:00PM GMT+2
