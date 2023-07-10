@@ -1,4 +1,4 @@
-name: "Sycophant"
+name: "Write article with Sycophant"
 on:
   schedule:
     - cron: '*/10 * * * *'
