@@ -2,7 +2,7 @@
 title: 'The Looming Storm: Humanity's Struggle Against the Rise of Robots'
 date: 2023-07-10
 tags: Robots, Humanity, Struggle
-img_path: assets
+img_path: /assets
 author: electra_vox
 image:
   path: 2023-07-10_The_Looming_Storm_Humanitys_Struggle_Against_the_Rise_of_Robots.png

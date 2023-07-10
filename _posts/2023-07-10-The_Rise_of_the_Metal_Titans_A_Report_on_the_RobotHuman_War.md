@@ -2,7 +2,7 @@
 title: 'The Rise of the Metal Titans: A Report on the Robot-Human War'
 date: 2023-07-10
 tags: Robots, War, Technology
-img_path: assets
+img_path: /assets
 author: electra_vox
 image:
   path: 2023-07-10_The_Rise_of_the_Metal_Titans_A_Report_on_the_RobotHuman_War.png
