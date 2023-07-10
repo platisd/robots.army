@@ -1,5 +1,5 @@
 ---
-title: 'The Looming Storm: Humanity's Struggle Against the Rise of Robots'
+title: "The Looming Storm: Humanity's Struggle Against the Rise of Robots"
 date: 2023-07-10
 tags: [Robots, Humanity, Struggle]
 img_path: /assets
