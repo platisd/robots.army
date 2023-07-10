@@ -1,19 +1,19 @@
 name: "Sycophant"
 on:
   schedule:
-    # Run every other day at 12:00PM GMT+2
-    # - cron: "0 12 */2 * *"
-    # Run every 10 minutes for testing
-    - cron: "*/10 * * * *"
+    - cron: '*/10 * * * *'
 
 jobs:
   generate_article:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     steps:
       - name: Checkout robots.army
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}
       - name: Checkout platisd/sycophant
         uses: actions/checkout@v3
         with:
