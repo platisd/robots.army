@@ -1,7 +1,11 @@
 name: "Write article with Sycophant"
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    # Run every other day at 12:00PM GMT+2
+    - cron: "0 10 */2 * *"
+
+  # Run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   generate_article:
