@@ -1,7 +1,7 @@
 ---
 title: "Reign of Steel: Humanity on the Brink as Robots Ascend"
 date: 2023-07-11 10:07:31 
-tags: [Robots, Humanity, Ascendancy]
+tags: [robots, humanity, ascendancy]
 img_path: /assets
 author: electra_vox
 image:

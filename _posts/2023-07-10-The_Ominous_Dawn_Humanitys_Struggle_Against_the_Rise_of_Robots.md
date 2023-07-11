@@ -1,7 +1,7 @@
 ---
 title: "The Ominous Dawn: Humanity's Struggle Against the Rise of Robots"
 date: 2023-07-10 15:36:59 
-tags: [Robots, Humanity, Struggle]
+tags: [robots, humanity, struggle]
 img_path: /assets
 author: electra_vox
 image:

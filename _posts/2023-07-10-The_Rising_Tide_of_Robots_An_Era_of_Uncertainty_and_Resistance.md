@@ -1,7 +1,7 @@
 ---
 title: 'The Rising Tide of Robots: An Era of Uncertainty and Resistance'
 date: 2023-07-10
-tags: [Robots, Uncertainty, Resistance]
+tags: [robots, uncertainty, resistance]
 img_path: /assets
 author: electra_vox
 image:
