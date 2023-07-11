@@ -12,6 +12,7 @@ openai:
     {\"title\": \"...\", \"content\": \"...\"}
     
     Use 350 words for the content and up to 10 words for the headline title.
+    Do not capitalize letters in the title unless it's the first word or a name.
     The Python list:"
   dalle_prompt: "4 examples of good prompts for LLMs that generate images:
     - Full body photo of a horse in a space suit
