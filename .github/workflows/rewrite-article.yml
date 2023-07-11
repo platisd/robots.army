@@ -1,0 +1,77 @@
+name: "Rewrite article when maintainer creates issue"
+on: 
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  rewrite-article:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'Rewrite')
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout robots.army
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}
+      - name: Checkout platisd/sycophant
+        uses: actions/checkout@v3
+        with:
+          repository: platisd/sycophant
+          path: sycophant
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install sycophant's dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r sycophant/requirements.txt
+      - name: Rewrite article with sycophant
+        run: |
+          prompt="${{ github.event.issue.body }}"
+          issue_title="${{ github.event.issue.title }}"
+          filename=${issue_title/Rewrite/}
+          set +e
+          python sycophant/sycophant.py \
+            --openai-api-key ${{ secrets.OPENAI_API_KEY }} \
+            --news-api-key ${{ secrets.NEWS_API_KEY }} \
+            --config sycophant-config.yml \
+            --rewrite-article "$filename" \
+            --rewrite-prompt "$prompt"
+          result=$?
+          if [ $result -ne 0 ]; then
+            comment="Failed to rewrite article"
+            gh issue comment "${{ github.event.issue.number }}" --body "Failed to rewrite article"
+            exit $result
+          fi
+          gh issue close --comment "Rewrote article" "${{ github.event.issue.number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Sycophant"
+          git config --global user.email "platisd@users.noreply.github.com"
+          git add _posts
+          current_date=$(date -u +"%Y-%m-%d %H:%M:%S")
+          git commit -m "Rewrote article at $current_date"
+          git push origin master
+
+  illegal-rewrite:
+    if: github.event.issue.user.login != github.repository_owner && startsWith(github.event.issue.title, 'Rewrite')
+    runs-on: ubuntu-22.04
+    permissions:
+      issues: write
+    steps:
+      - name: Checkout robots.army
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Close and comment on issue
+        run: |
+          gh issue close --comment "Only @${{ github.repository_owner }} can request a rewrite" "${{ github.event.issue.number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
