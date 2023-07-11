@@ -12,6 +12,7 @@
 
 - type: email
   icon: "fas fa-envelope"
+  url:  'https://www.linkedin.com/in/platisd'
   noblank: true # open link in current tab
 
 - type: rss
