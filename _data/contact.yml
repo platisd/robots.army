@@ -7,8 +7,8 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/platisd'
 
-- type: twitter
-  icon: "fab fa-twitter"
+# - type: twitter
+#   icon: "fab fa-twitter"
 
 - type: email
   icon: "fas fa-envelope"
