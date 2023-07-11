@@ -1,8 +1,8 @@
 name: "Write new article with Sycophant"
 on:
   schedule:
-    # Run every other day at 12:00PM GMT+2
-    - cron: "0 10 */2 * *"
+    # Run every other day at 07:00AM GMT+2
+    - cron: "0 5 */2 * *"
 
   # Run this workflow manually from the Actions tab
   workflow_dispatch:
