@@ -10,9 +10,9 @@
 # - type: twitter
 #   icon: "fab fa-twitter"
 
-- type: email
+- type: website
   icon: "fas fa-envelope"
-  url:  'https://www.linkedin.com/in/platisd'
+  url:  'https://platis.solutions/#contact'
   noblank: true # open link in current tab
 
 - type: rss
