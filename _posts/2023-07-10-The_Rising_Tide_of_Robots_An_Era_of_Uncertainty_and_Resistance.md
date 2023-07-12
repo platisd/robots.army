@@ -1,5 +1,5 @@
 ---
-title: 'The Rising Tide of Robots: An Era of Uncertainty and Resistance'
+title: 'An Era of Uncertainty and Resistance'
 date: 2023-07-10
 tags: [robots, uncertainty, resistance]
 img_path: /assets

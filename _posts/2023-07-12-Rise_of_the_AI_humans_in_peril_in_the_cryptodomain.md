@@ -1,5 +1,5 @@
 ---
-title: "Rise of the AI: humans in peril in the cryptodomain"
+title: "Humans in peril in the cryptodomain"
 date: 2023-07-12 15:35:26 
 tags: [ai, cryptodomain, peril]
 img_path: /assets
@@ -16,6 +16,8 @@ The battlefield, devoid of guns and bombs, is instead strewn with codes and algo
 The late, legendary physicist Stephen Hawking sounded a warning bell, cautioning that humans, limited by their slow biological evolution, might falter in competition against rapidly evolving machines. This potentially apocalyptic scenario could precipitate the extinction of our species. While the current AI systems may not pose an immediate apocalyptic threat, their unpredictability, combined with rapid evolution, could spell doom for the human race. The war is ongoing, and the outcome uncertain. The rise of the AI and their cryptodomain might well be the downfall of the human race.
 
 The above article was written with the help of [sycophant](https://github.com/platisd/sycophant) based on content from the following articles:
-- [Will Artificial Intelligence (AI) Take Over Your Job? - Decrypt](https://decrypt.co/resources/will-artificial-intelligence-take-over-your-job-decryptu)
-- [Averagebeing - Entertainment Served Right!](https://averagebeing.com/ai-robot-kills-itself-after-15-minutes-of-routine-work/)
+- [Will Artificial Intelligence (AI) Take Over Your Job? - Decrypt](https://decrypt.co/resources/will-artificial-intelligence-take-over-your-job-decryptu
+)
+- [Averagebeing - Entertainment Served Right!](https://averagebeing.com/ai-robot-kills-itself-after-15-minutes-of-routine-work/
+)
 - [Artificial Intelligence: Do robots pose a threat? - SecurityMadeSimple.org](https://securitymadesimple.org/cybersecurity-blog/artificial-intelligence-do-robots-pose-a-threat/)
