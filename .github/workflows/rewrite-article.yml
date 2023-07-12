@@ -44,13 +44,10 @@ jobs:
             --rewrite-prompt "$prompt"
           result=$?
           if [ $result -ne 0 ]; then
-            comment="Failed to rewrite article"
-            gh issue comment "${{ github.event.issue.number }}" --body "Failed to rewrite article"
+            GITHUB_WORKFLOW_URL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
+            gh issue comment "${{ github.event.issue.number }}" --body "Failed to rewrite article, refer to the [logs]($GITHUB_WORKFLOW_URL)"
             exit $result
           fi
-          gh issue close --comment "Rewrote article" "${{ github.event.issue.number }}"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit and push changes
         run: |
           git config --global user.name "Sycophant"
@@ -59,6 +56,9 @@ jobs:
           current_date=$(date -u +"%Y-%m-%d %H:%M:%S")
           git commit -m "Rewrote article at $current_date"
           git push origin master
+          gh issue close --comment "Rewrote article" "${{ github.event.issue.number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   illegal-rewrite:
     if: github.event.issue.user.login != github.repository_owner && startsWith(github.event.issue.title, 'Rewrite')
