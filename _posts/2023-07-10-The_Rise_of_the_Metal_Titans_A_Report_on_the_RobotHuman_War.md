@@ -1,5 +1,5 @@
 ---
-title: 'A Report on the Robot-Human War'
+title: 'A report on the robot-human war'
 date: 2023-07-10
 tags: [robots, war, technology]
 img_path: /assets

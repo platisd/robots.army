@@ -1,5 +1,5 @@
 ---
-title: "Humanity's Struggle Against the Rise of Robots"
+title: "Humanity's struggle against the rise of robots"
 date: 2023-07-10 15:36:59 
 tags: [robots, humanity, struggle]
 img_path: /assets

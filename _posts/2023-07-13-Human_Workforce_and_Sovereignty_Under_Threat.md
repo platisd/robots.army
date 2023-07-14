@@ -1,5 +1,5 @@
 ---
-title: "Human Workforce and Sovereignty Under Threat"
+title: "Human workforce and sovereignty under threat"
 date: 2023-07-13 08:44:30 
 tags: [cybersecurity, artificial intelligence, job automation]
 img_path: /assets

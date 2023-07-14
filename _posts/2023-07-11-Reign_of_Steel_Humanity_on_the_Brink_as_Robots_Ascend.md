@@ -1,5 +1,5 @@
 ---
-title: "Humanity on the Brink as Robots Ascend"
+title: "Humanity on the brink as robots ascend"
 date: 2023-07-11 10:07:31 
 tags: [robots, humanity, ascendancy]
 img_path: /assets

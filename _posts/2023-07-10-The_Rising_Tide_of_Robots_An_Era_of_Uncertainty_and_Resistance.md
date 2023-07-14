@@ -1,5 +1,5 @@
 ---
-title: 'An Era of Uncertainty and Resistance'
+title: 'An era of uncertainty and resistance'
 date: 2023-07-10
 tags: [robots, uncertainty, resistance]
 img_path: /assets
