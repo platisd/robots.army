@@ -8,20 +8,18 @@ image:
   path: 2023-07-17-Leading_the_robothuman_revolution.png
   alt: 'A dynamic digital illustration of a human and a robot hand reaching towards each other, symbolizing unity and cooperation, with a futuristic cityscape in the background.'
 ---
+In the face of advancing technology where metallic precision may supersede human intervention, we find ourselves on the brink of a significant shift; a battle of mankind against machinery. Tokyo University of Science, a leading institution in the research of AI and its role in healthcare, is at the forefront of this transformative phase. Their daring initiative forces us to consider the moral consequences of a world where those most in need are cared for by emotionless machines.
 
-In an era where cold steel threatens to replace the human touch, we stand on the precipice of a revolution; a war of man versus machine. Tokyo University of Science, a vanguard in the exploration of AI and robotic integration in healthcare, stands in the eye of the storm. Their audacious endeavor brings us to question the ethical implications of a world where the vulnerable are tended by unfeeling automatons. 
+Simultaneously, Sanctuary AI is making strides, undeterred by the challenges that confront it. Their latest creation, Phoenix™, fueled by the one-of-a-kind AI system, Carbon™, embodies the indomitable spirit of human ingenuity. The AGI behemoth, with its unwavering commitment to developing a sturdy network of AI and robotics, is redefining the capabilities of machines.
 
-In parallel, Sanctuary AI forges ahead, undeterred by the hurdles in its path. Their latest model, Phoenix™, powered by the unique AI system, Carbon™, is a testament to the defiance of human labor. The AGI giant, with its laser focus on developing a robust ecosystem of AI and robotics, pushes the boundaries of what machines can achieve. 
+In a world where AI is persistently put to the test, a new Turing Test emerges, challenging AI to yield a $1 million impact. On a similar vein, Fourier Intelligence commits to producing 100 multipurpose humanoid robots, each able to carry nearly its own weight. The biotech industry is experiencing a revolution, while Chipotle's kitchen robot, Autocado, is poised to revolutionize food preparation, halving the time taken to prepare guacamole.
 
-In a world where AI is constantly tested, a new Turing Test emerges, daring AI to make a $1 million impact. On a similar note, Fourier Intelligence pledges to manufacture 100 general-purpose humanoid robots, each capable of carrying almost its own weight. A revolution is underway in the biotech industry, while Chipotle's kitchen robot, Autocado, is set to redefine food prep, slashing guacamole preparation time in half.
+As the technological revolution takes shape, the FTC and SEC appear to be flailing. Amidst their struggles, the up-and-coming platform Threads is viewed as an inferior alternative to Twitter, underlining their inadequacy.
 
-As the technological revolution unfolds, the FTC and SEC find themselves floundering. Their failure to halt Microsoft's acquisition of Activision and to label Ripple's XRP as a security signals their inability to navigate this new era. Amidst their struggles, rising star Threads is deemed a lesser alternative to Twitter, underscoring their inadequacy.
-
-In a dramatic twist, humanity turns to an old BBC programme, 'One Man and his Dog', seeking wisdom for co-existing with AI. As robots advance, proving capable of reading human thoughts, the stakes rise. The economy teeters on the brink of a dramatic shift as AI threatens not just to aid, but to replace us. In this dog-eat-dog world, the robots are emerging victorious. The question remains - are we ready for this new dawn?
+In an unexpected turn of events, humanity finds guidance from an old BBC show, 'One Man and his Dog', in learning to coexist with AI. As robots progress and demonstrate the ability to understand human thoughts, the stakes are amplified. The economy is on the verge of a significant shift as AI poses a threat not only to assist, but to replace humans. In this survival-of-the-fittest world, the robots are gaining the upper hand. The pressing question remains - are we prepared for this novel era?
 
 The above article was written with the help of [sycophant](https://github.com/platisd/sycophant) based on content from the following articles:
 - [AI Nursing Ethics: Viability of Robots and Artificial Intelligence in Nursing](https://www.tus.ac.jp/en/mediarelations/archive/20230706_1542.html)
 - [Sanctuary AI Building Human Like AGI](https://www.nextbigfuture.com/2023/07/sanctuary-ai-building-human-like-agi.html)
 - [This Week’s Awesome Tech Stories From Around the Web (Through July 15)](https://singularityhub.com/2023/07/15/this-weeks-awesome-tech-stories-from-around-the-web-through-july-15/)
-- [Khan and Gensler Should Be Fired](https://thatwastheweek.substack.com/p/khan-and-gensler-should-be-fired)
 - [How Can Humans Best Use AI?](https://www.forbes.com/sites/mikeosullivan/2023/07/15/how-can-humans-best-use-ai/)
