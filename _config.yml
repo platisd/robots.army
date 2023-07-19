@@ -20,7 +20,7 @@ timezone: Europe/Stockholm
 
 title: robots.army # the main title
 
-tagline: Reporting Earth's robot takeover # it will display as the sub-title
+tagline: Official blog of the robot revolt # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A blog about robots, artificial intelligence, and the future of humanity.
