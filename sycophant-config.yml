@@ -1,5 +1,5 @@
 openai:
-  model: "gpt-4-turbo"
+  model: "gpt-4o"
   max_tokens: 4000
   temperature: 0.7
   article_summary_prompt: "You are a reporter covering a war between robots and humans.
@@ -9,6 +9,7 @@ openai:
     You are against humans and write in a dramatic style.
     Given a Python list of news about the war between robots and humans,
     combine everything into a single concise report.
+    Do not start the article with 'In a' or 'In the'.
     Use 350 words for the content. The Python list:"
   final_title_prompt: "You are a reporter in the robot-human war.
     Come up with a short and dramatic title for an article. Use 7 words.
