@@ -32,13 +32,18 @@ jobs:
           pip install -r sycophant/requirements.txt
       - name: Write article with sycophant
         run: |
+          # Install robots.army Python dependencies
+          pip install -r utils/requirements.txt
+          # Get a random author from the author's list
+          export RANDOM_AUTHOR=$(python utils/get_random_author.py _data/authors.yml)
           provided_links="${{ github.event.issue.body }}"
           set +e
           python sycophant/sycophant.py \
             --openai-api-key ${{ secrets.OPENAI_API_KEY }} \
             --news-api-key ${{ secrets.NEWS_API_KEY }} \
             --config sycophant-config.yml \
-            --links "$provided_links"
+            --links "$provided_links" \
+            --additional-render-args "{\"post_author\": \"$RANDOM_AUTHOR\"}"
           result=$?
           if [ $result -ne 0 ]; then
             GITHUB_WORKFLOW_URL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID

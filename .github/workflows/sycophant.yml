@@ -34,10 +34,15 @@ jobs:
           pip install -r sycophant/requirements.txt
       - name: Generate article with sycophant
         run: |
+          # Install robots.army Python dependencies
+          pip install -r utils/requirements.txt
+          # Get a random author from the author's list
+          export RANDOM_AUTHOR=$(python utils/get_random_author.py _data/authors.yml)
           python sycophant/sycophant.py \
             --openai-api-key ${{ secrets.OPENAI_API_KEY }} \
             --news-api-key ${{ secrets.NEWS_API_KEY }} \
-            --config sycophant-config.yml
+            --config sycophant-config.yml \
+            --additional-render-args "{\"post_author\": \"$RANDOM_AUTHOR\"}"
       - name: Commit and push changes
         run: |
           git config --global user.name "Sycophant"
