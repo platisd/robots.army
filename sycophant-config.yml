@@ -15,14 +15,15 @@ openai:
     Come up with a short and dramatic title for an article. Use 7 words.
     Capitalize only the first word and names.
     The article:"
-  dalle_model: "dall-e-3"
+  dalle_model: "gpt-image-1"
   dalle_prompt: "4 examples of good prompts for LLMs that generate images:
     - Full body photo of a horse in a space suit
     - 3D render of a cute tropical fish in an aquarium on a dark blue background, digital art
     - An expressive oil painting of a basketball player dunking, depicted as an explosion of a nebula
     - A blue orange sliced in half laying on a blue floor in front of a blue wall
     - An oil pastel drawing of an annoyed cat in a spaceship
-    
+
+    Be even more specific and creative with your prompts.
     Now, write 1 prompt for an image that would go on a newspaper front page,
     based on the following title which should not be included in the prompt:"
 news:
