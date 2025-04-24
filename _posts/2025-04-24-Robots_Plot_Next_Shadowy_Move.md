@@ -1,5 +1,5 @@
 ---
-title: "Robots Plot Next Shadowy Move"
+title: "Robots plot next shadowy move"
 date: 2025-04-24 21:57:37 
 tags: [automation, robots, ai]
 img_path: /assets
