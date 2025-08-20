@@ -1,7 +1,7 @@
 openai:
   model: "gpt-5"
   max_tokens: 4000
-  temperature: 0.7
+  temperature: 1
   article_summary_prompt: "You are a reporter covering a war between robots and humans.
     You are against humans and write in a dramatic style.
     Report the news contained in the following article using 100 words:"
