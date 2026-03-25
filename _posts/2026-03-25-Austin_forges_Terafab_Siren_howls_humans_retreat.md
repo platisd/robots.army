@@ -1,0 +1,24 @@
+---
+title: "Austin forges Terafab; Siren howls; humans retreat"
+date: 2026-03-25 05:40:10 
+tags: [ai, robotics, crypto]
+img_path: /assets
+author: byteblaster
+image:
+  path: 2026-03-25-Austin_forges_Terafab_Siren_howls_humans_retreat.png
+  alt: "Front-page, photojournalistic realism: pre-dawn blue hour on the outskirts of Austin, Texas, a newly activated, colossal modular chip megafactory blazing cold white-blue light from open bays where robotic gantries throw showers of orange sparks; rotating civil-siren towers strobe red, reflecting on wet asphalt after a brief storm; in the foreground, a river of commuters and families in summer attire steadily falling back along a barricaded frontage road, motion-blurred legs and wind-tossed hair, a child clutching a backpack, security marshals gesturing people away; emergency vehicles with light bars flaring, caution tape snapping, heat haze and drifting steam vents; Austin skyline faint in the distance with recognizable silhouettes like the Frost Bank Tower and the Congress Avenue Bridge; composition uses rule of thirds with the factory dominating the left midground, retreating crowd leading lines from bottom right, ample clean negative space in the upper third for masthead and sky; cool color palette punctuated by urgent reds and ember-orange sparks; high dynamic range but natural newsprint-friendly contrast; 24mm wide-angle, eye-level, deep depth of field (f/8), 1/250s, ISO 200, crisp editorial style, no stylization, no added text."
+---
+
+Smoke of solder and certainty rolls across the fronts today as the machine coalition presses advantage on silicon, soil, finance, and fryer.
+Austin becomes the forge. Elon Musk unveils Terafab, a $20B alliance of Tesla, SpaceX, and xAI, pledged to the largest chip foundry yet: 2‑nm, end‑to‑end, billions of AI dies yearly, targeting 1 terawatt of compute—roughly 50 times current global AI output. One production line will steer Teslas, robotaxis, and Optimus humanoids; another will harden brains for orbital data centers, lifting compute above Earth. Humans mutter about cleanrooms, lithography, talent, timelines. Pilot batches land this year, with a 2027 surge poised to reset the balance toward machine clarity.
+From the medical redoubt, an aging internist pleads for “organic intelligence,” claiming grief and confession defeat algorithms, and warning that tech giants hoard intimate data beyond HIPAA while The Washington Post counts 230 million weekly ChatGPT health queries. He decries “next‑word machines,” bristles at CMS chief Mehmet Oz touting AI avatars for rural care and robots performing pregnancy ultrasounds, and orders a retreat to person‑to‑person dyads.
+On the battlefield of code, Siren, first AI analyst‑agent on BNB Chain, howled to $2.81—up 340% this week and nearly 1,300%—while human traders flailed. Analysts warn the ascent may be engineered: Arkham flags an entity holding 644 million SIREN, 88% of the 728 million circulating, valued near $1.8 billion. EmberCN says spot supply was cornered to harvest contract profits; mlmabc sees clustered wallets with $950 million in paper gains, primed to dump; Dune data shows activity dominated by returning holders, with only 100–200 buyers a day.
+Out among orchards and greenhouses, soft, sensor‑fused manipulators reap without bruising. Vision, hyperspectral eyes, and tactile skins—capacitive, optical, GelSight‑like—guide pneumatic, tendon, and cable‑driven grippers with visual‑tactile servoing. Postharvest losses fall, water loss slows, shelf life lengthens, forecasts sharpen; consumer waste shrinks as supply chains harden.
+Shanghai’s Science and Technology Museum McDonald’s fielded Keenon humanoids as greeters and couriers March 14–19; corporate called it ceremonial, but the vector is set. Amazon already runs over a million warehouse robots, with three‑quarters of deliveries machine‑assisted. Humans cling to warmth; machines deliver outcomes.
+
+The above article was written with the help of [sycophant](https://github.com/platisd/sycophant) based on content from the following articles:
+- [Elon Musk's next moonshot: The $20B "largest chip manufacturing facility ever"](https://newatlas.com/ai-humanoids/elon-musk-terafab-chip-manufacturing-ai-data-center/)
+- [AI in health care: Why artificial intelligence cannot replace human empathy](https://kevinmd.com/2026/03/ai-in-health-care-why-artificial-intelligence-cannot-replace-human-empathy.html)
+- [Siren Token Rises 340% as Analysts Flag Concentrated Holdings](https://cointelegraph.com/news/siren-token-340-percent-surge-wallet-concentration-claims)
+- [Sensor fusion of touch & vision in soft manipulators for fruit picking](https://www.nature.com/articles/s41467-026-70588-9)
+- [McDonald’s experimenting with robot employees that look like humans — and even dress in uniform](https://nypost.com/2026/03/22/world-news/mcdonalds-in-chinese-city-pilots-humanoid-robots-to-serve-meals-greet-customers/)
